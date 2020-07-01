@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -35,17 +35,18 @@ body {
   background: #eceffd;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 320px) {
   .carousel-caption .h1 {
     margin-top: -580px;
+    line-height: 1em;
   }
   .carousel-caption .h4 {
-    margin-top: -450px;
+    margin-top: -400px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 1em;
   }
   .open {
-    margin-top: -230px;
+    margin-top: -200px;
   }
 }
 .btn-outline-secondary {
