@@ -34,10 +34,16 @@ body {
 .third-section {
   background: #eceffd;
 }
+.heheM {
+  display: none;
+}
+.text-mobile {
+  display: none;
+}
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 300px) {
   .carousel-caption .h1 {
-    margin-top: -450px;
+    margin-top: -500px;
     line-height: 1em;
   }
   .carousel-caption .h4 {
@@ -47,6 +53,18 @@ body {
   }
   .open {
     margin-top: -100px;
+  }
+  .heheM {
+    display: block;
+  }
+  .hehe {
+    display: none;
+  }
+  .text-mobile {
+    display: block;
+  }
+  .text-desktop {
+    display: none;
   }
 }
 .btn-outline-secondary {
