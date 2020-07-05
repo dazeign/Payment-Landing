@@ -409,8 +409,8 @@ ul.navbar-nav:first-of-type > li {
   section > h3,
   #payments h4,
   #payments h5 {
-    font-size: 0.813em;
-    line-height: 16px;
+    font-size: 1.2em;
+    line-height: 20px;
   }
   section > p,
   .offer-item p,
@@ -418,8 +418,8 @@ ul.navbar-nav:first-of-type > li {
   #operations h4,
   #reviews .card-text,
   .footer-links a {
-    font-size: 0.625em;
-    line-height: 12px;
+    font-size: 1em;
+    line-height: 18px;
   }
   .offer-item svg {
     width: 40px;
