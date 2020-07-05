@@ -17,7 +17,6 @@ body {
 }
 .txt-primary {
   color: var(--primary);
-  font-family: "Mali", sans-serif;
 }
 .txt-brand {
   color: #f784ad !important;
@@ -401,11 +400,11 @@ ul.navbar-nav:first-of-type > li {
     width: 80%;
   }
   .hero-buttons .btn {
-    font-size: 0.4em;
-    padding: 5px;
+    font-size: 1em;
+    padding: 3px;
   }
   .hero-buttons img {
-    width: 30%;
+    width: 20%;
   }
   section > h3,
   #payments h4,
