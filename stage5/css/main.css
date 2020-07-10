@@ -82,6 +82,15 @@ section {
 .my-services1 {
   width: 30%;
 }
+
+@media screen and (max-width: 920px) {
+  .bio {
+    display: none;
+  }
+  .bio-text {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 620px) {
   header {
     background: url(../img/hero-mobile.jpg);
@@ -89,12 +98,6 @@ section {
     background-repeat: no-repeat;
     padding-left: 3%;
     padding-right: 3%;
-  }
-  .bio {
-    display: none;
-  }
-  .bio-text {
-    width: 100%;
   }
   section {
     margin-left: 3%;
