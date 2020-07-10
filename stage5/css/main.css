@@ -60,6 +60,16 @@ section {
 .gallery1 img {
   max-width: 100%;
 }
+.serve-img {
+  width: 100%;
+  height: auto;
+}
+.bottom-text {
+  color: var(--secondary);
+  position: absolute;
+  bottom: 15px;
+  left: 35%;
+}
 /* .gallery1 img:nth-child(1) {
   width: 35%;
   height: 565px;
