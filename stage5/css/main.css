@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  /* border: 1px solid brown; */
+}
+:root {
+  --primary: #2b7a78;
+}
+nav {
+  font-size: 0.8em;
+  background: transparent;
+}
+.img-holder img {
+  height: 100vh;
+  width: 100vw;
+}
