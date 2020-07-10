@@ -102,6 +102,21 @@ section {
 .slider-font {
   line-height: 34px;
 }
+.send {
+  border: 4px solid var(--primary);
+}
+.send2 {
+  border: 2px solid var(--primary);
+  background: var(--primary);
+}
+input[type="text"] {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid var(--primary);
+}
+.rounded {
+  border-radius: 20px !important;
+}
 @media screen and (max-width: 920px) {
   .bio {
     display: none;
