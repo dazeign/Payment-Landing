@@ -7,24 +7,53 @@
 :root {
   --primary: #2b7a78;
   --secondary: #ffffff;
+  --tertiary: #7a7a7a;
+}
+.btn {
+  background: var(--primary);
+  color: var(--secondary);
+  border-radius: 0;
 }
 header {
-  background: transparent !important;
+  background-image: url(../img/Hero-Section.svg);
   color: var(--secondary);
-  padding: 0 5% 0 5%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-.navbar-brand,
 .txt-brand {
-  font-size: 1.6em;
+  font-size: 2em;
+  font-weight: 600;
 }
 .nav-item {
-  font-size: 0.8em;
+  font-weight: 200;
 }
-.img-holder img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
+h1 {
+  font-size: 64px;
+}
+h2 {
+  color: var(--tertiary);
+}
+.hero {
+  height: 75vh;
+}
+.hero button {
+  font-size: 1.3em;
+}
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.bio {
+  width: 524px;
+  height: 500px;
+}
+.bio-text {
+  width: 424px;
+}
+.bio-text p {
+  line-height: 48px;
+  font-size: 1.2em;
 }
