@@ -87,11 +87,17 @@ section {
     background: url(../img/hero-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   .bio {
     display: none;
   }
   .bio-text {
     width: 100%;
+  }
+  section {
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
