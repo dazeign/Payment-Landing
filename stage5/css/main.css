@@ -51,13 +51,34 @@ section {
   height: 500px;
 }
 .bio-text {
-  width: 424px;
+  width: 36%;
 }
 .bio-text p {
   line-height: 48px;
   font-size: 1.2em;
 }
-.gallery1 img:nth-child(1) {
-  width: 40%;
+.gallery1 img {
+  max-width: 100%;
+}
+/* .gallery1 img:nth-child(1) {
+  width: 35%;
   height: 565px;
+}
+.gallery1 img:nth-child(2) {
+  width: 30%;
+  height: 565px;
+}
+.gallery1 img:nth-child(3) {
+  width: 30%;
+  height: 320px;
+}
+.gallery1 img:nth-child(4) {
+  width: 30%;
+  height: 320px;
+} */
+.my-services {
+  width: 50%;
+}
+.my-services1 {
+  width: 30%;
 }
