@@ -42,9 +42,14 @@ h2 {
 .hero button {
   font-size: 1.3em;
 }
-section {
+section,
+section .row {
   margin-left: 10%;
   margin-right: 10%;
+}
+article .row {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .bio {
   width: 524px;
@@ -133,9 +138,14 @@ input[type="text"] {
     padding-left: 3%;
     padding-right: 3%;
   }
-  section {
+  section,
+  section .row {
     margin-left: 3%;
     margin-right: 3%;
+  }
+  section .carousel-slide {
+    padding-left: 3%;
+    padding-right: 3%;
   }
   .line {
     width: 60%;
